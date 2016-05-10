@@ -8,11 +8,11 @@ There are only one operation implemented at the moment: multiplication.
 
 
 
-###Example call
+### Example call
 
 `localhost:8200/calculator/multiply?a=8&b=4`
 
-###How to build it
+### How to build it
 
 `mvn clean package`
 
