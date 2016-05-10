@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @org.springframework.web.bind.annotation.RestController
 @RequestMapping("/calculator")
-public class RestController {
+public class CalculatorController {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(RestController.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CalculatorController.class);
 
     @Autowired
     private Calculator calculator;
