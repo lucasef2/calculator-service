@@ -19,7 +19,7 @@ public class CalculatorController {
     //localhost:8200/calculator/multiply?a=8&b=4
     @RequestMapping(value = "/multiply", method = RequestMethod.GET)
     private Integer sample(@RequestParam(value = "a", required = true) Integer a, @RequestParam(value = "b", required = true) Integer b) {
-        LOGGER.info("Parameters [" + a + "] + [" + b + "]");
+        LOGGER.info("Received a multiply [" + a + "] + [" + b + "]");
         return calculator.multiply(a, b);
     }
 
