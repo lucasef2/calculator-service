@@ -4,28 +4,3 @@ logging:
   file: sai-service.log
 
 server.port: 8200
-
----
-
-# Development
-spring:
-  profiles: dev
-
-  datasource:
-    url: jdbc:postgresql://sandbox-voltaware.cxwbf53hcrxp.eu-west-1.rds.amazonaws.com:5432/sai_db
-    username: sai_user
-    password: fUkQwTG65MgcDFqT
-    driverClassName: org.postgresql.Driver
-
----
-
-# Production
-spring:
-  profiles: prod
-
-  datasource:
-    url: jdbc:postgresql://localhost:5432/<databasename>
-    username:
-    password:
-    driverClassName: org.postgresql.Driver
-    
