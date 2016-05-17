@@ -27,5 +27,11 @@ public class CalculatorTest {
         assertEquals(new Integer(6), product);
     }
 
+    @Test
+    public void wrongTest() throws Exception {
+        Integer product = calculator.multiply(3, 3);
+        assertEquals(new Integer(6), product);
+    }
+
 
 }
