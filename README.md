@@ -18,5 +18,11 @@ There are only one operation implemented at the moment: multiplication.
 
 Make sure you run on the same directory then pom.xml.
 
+### How to run it
 
+`mvn spring-boot:run`
+Make sure you run on the same directory then pom.xml.
 
+Or
+
+`java -jar calculator-service-1.0.0-SNAPSHOT.jar`
