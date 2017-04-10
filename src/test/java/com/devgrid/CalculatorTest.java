@@ -12,7 +12,7 @@ public class CalculatorTest {
     @Test
     public void testMultiplybyZero() throws Exception {
         Integer product = calculator.multiply(0, 234234);
-        assertEquals(new Integer(0), product);
+        assertEquals(new Integer(0), product+1);
     }
 
     @Test
