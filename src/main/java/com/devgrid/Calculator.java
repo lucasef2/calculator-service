@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 public class Calculator {
 
     public Integer multiply(Integer a, Integer b) {
-        return a * ;
+        return a * b +1;
     }
 
 }
