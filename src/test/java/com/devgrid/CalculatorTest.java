@@ -24,7 +24,7 @@ public class CalculatorTest {
     @Test
     public void testMultiplyby2() throws Exception {
         Integer product = calculator.multiply(2, 3);
-        assertEquals(new Integer(6), product);
+        assertEquals(new Integer(7), product);
     }
 
 //    @Test
